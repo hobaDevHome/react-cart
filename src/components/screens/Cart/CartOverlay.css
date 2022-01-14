@@ -1,0 +1,98 @@
+.backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(57, 55, 72, 0.22);
+}
+
+.cart-modal {
+  position: fixed;
+  top: 80px;
+  right: 260px;
+  width: 350px;
+  background-color: white;
+  padding: 0;
+
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.overlay-item-titles {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.overlay-total-containt {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.overlay-buttons-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  flex-basis: 50%;
+}
+
+.link-router a {
+  text-decoration: none;
+}
+.overlay-items-containter {
+  overflow-x: hidden;
+  max-height: 600px;
+}
+.overlay-items-containter.scroll {
+  overflow-y: scroll;
+}
+
+.no-items-overlay {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+no-items-contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.noItmesLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linking {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.wide-bttn-in-overlay {
+  font-size: 14px;
+  font-weight: normal;
+}

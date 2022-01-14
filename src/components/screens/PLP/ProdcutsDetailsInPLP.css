@@ -1,0 +1,34 @@
+.backdrop-product {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 120;
+  background-color: rgba(255, 250, 250, 0.01);
+}
+
+.cart-modal-product {
+  position: fixed;
+
+  width: 800px;
+  top: 250px;
+  right: 500px;
+
+  background-color: white;
+  padding: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 121;
+}
+.content-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.details-screen-title {
+  font-size: 20px;
+}
